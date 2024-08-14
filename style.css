@@ -199,22 +199,27 @@ input{
     height: 2.5rem;
     padding-left: 0.5rem;
 }
-button{
+.button{
     background-color: var(--pink);
     color: var(--Very_Pale_Blue);
-    padding: 0.5rem 2rem;
+    padding: 0.6rem 2rem;
     border-radius: 0.3rem;
+    text-decoration: none;
+    text-align: center;
 }
-button:hover{
-    cursor: pointer;
-}
-button:active{
+.button:active{
     background-color: var(--Light_Pink);
 }
 .textarea{
     display: flex;
     justify-content: center;
     gap: 2rem;
+}
+#email-err{
+    color: var(--Light_Red);
+    font-size: small;
+    margin-top: 0.5rem;
+    display: none;
 }
 @media(max-width:375px){
    header{

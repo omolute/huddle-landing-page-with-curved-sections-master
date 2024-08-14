@@ -81,10 +81,13 @@
       <h3>Newsletter</h3>
       <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
         send you spam or pass on your email address</p>
+      <form action="" id="submit_form">
         <div class="textarea">
-          <input type="email" placeholder="enter your email address">
-          <button formaction="#" type="submit">Subscribe</button>
+          <input name="email" id="email" type="email" placeholder="enter your email address">
+          <a href="#" class="button" id="submit">Subscribe</a>
         </div>
+        <p id="email-err">please enter a valid email address</p>
+      </form>
     </div>
   </section>
   <script src="script.js"></script>
